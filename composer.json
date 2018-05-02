@@ -1,0 +1,27 @@
+{
+  "name": "behat-testing",
+  "description": "Custom behat for window testing",
+  "keywords": [
+    "web",
+    "test",
+    "browser",
+    "gui",
+    "window"
+  ],
+  "authors": [
+    {
+      "name": "Sakona Chhoeurng",
+      "email": "sakona.chhoeurng@gmail.com"
+    }
+  ],
+  "require": {
+    "behat/behat": "~3.0",
+    "behat/mink-goutte-driver": "1.2.1",
+    "behat/mink-selenium2-driver": "~1.3.1",
+    "behat/mink-extension": "~2.3@dev",
+    "emuse/behat-html-formatter": "dev-master"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}

@@ -1,0 +1,6 @@
+# Ignore testing results
+/logs/
+
+# Ignore test package
+/bin/
+/vendor/
